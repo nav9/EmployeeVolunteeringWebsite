@@ -1,0 +1,80 @@
+<!doctype html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>CRTeam Home</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <!--______________ CSS ______________-->
+    <link rel="stylesheet" href="css/normalize.min.css">
+    <link rel="stylesheet" href="css/theme.css">
+    <link rel="stylesheet" href="css/caveman.css">
+
+    <!--______________ JavaScript ______________-->
+    <!--<script src="js/lib/modernizr-2.8.3-respond-1.4.2.min.js"></script>-->
+    <script src="js/lib/d3.v3.js"></script>
+    <script src="js/interactiveWeb/interactiveWebsJQuery.js"></script>
+    <script src="js/interactiveWeb/trianglify.js"></script>
+    <script src="js/updateBrowserNotification.js"></script>
+
+</head>
+
+
+<body>
+    <!--[if lt IE 10]>
+             <div class="browserupgrade">
+                         <img id="caveman" src="img/caveman.jpg" alt="caveman">
+         </div>
+ 
+         <p class="browserupgrade">
+                 <br>
+                 Oops!!! You are using an <strong>outdated</strong> browser. 
+                 <br>
+                 Please install a <a href="http://browsehappy.com/">more modern browser</a> right away!
+         <br>
+         <br>		
+         </p>
+         <p class="additionalMessage">Using an outdated browser is also a security risk. Please upgrade and return to CRTeam's website. Have a nice day!!! :-)</p>
+ 
+         <![endif]-->
+
+    <div id="page-wrap">
+        <div id="mainmenu">
+            <ul>
+                <li class='active'><a href='index.html'>Home</a></li>
+                <li><a href='mumbai.html'>Mumbai</a></li>
+                <li><a href='bangalore.html'>Bangalore</a></li>
+                <li><a href='delhi.html'>Delhi</a></li>
+                <li><a href='shelp.html'>S-Help</a></li>
+                <li><a href='team.html'>Team</a></li>
+                <li><a href='crheroes.html'>CR Heroes</a></li>
+                <li><a id="interactmenu" href='interact.html'>Interact</a></li>
+            </ul>
+            <a href='index.html'><img id="teamLogo" class="rotateit" src="img/invertedCRLogo.png" alt="team logo"></a>
+        </div>          
+
+        <article id="splashScreen" class="splash">	
+
+            <div id="experience">
+                <canvas id="lines"></canvas>
+                <h1>Welcome to CRTeam's website</h1>
+                <!--<div id="talkbubble"></div>-->
+                <div id="quote">
+                    <p>
+                    Never doubt that a small group of thoughtful, committed citizens can change the world. Indeed, it is the only thing that ever has - Margaret Mead 
+                    </p>
+                </div>
+            </div>    
+            <!-- script to be placed here since the canvas has to get created before
+            the script for interactive web can be activated -->
+            <script src="js/interactiveWeb/interactiveWebFunctions.js"></script>
+        </article>
+
+        <div class="clearFloats"></div>
+
+    </div><!--page wrap-->
+
+</body>
+</html>
